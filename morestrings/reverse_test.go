@@ -1,4 +1,4 @@
-package more_strings
+package morestrings
 
 import "testing"
 
