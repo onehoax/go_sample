@@ -17,7 +17,7 @@ func ReverseRunes(s string) string {
 
 // Print illegal UTF-8 encoding
 // In range, erroneous encodings consume 1 byte and produce the replacement rune U+FFFD
-// `rune` is Go's type and terminology for a single unicode code point (1 byte)
+// `rune` is Go's type and terminology for a single unicode code point (character)
 func IllegalChars() {
 	someString := "日本\x80語"
 
