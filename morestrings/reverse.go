@@ -1,3 +1,7 @@
+// Package morestrings provides functions for manipulating UTF-8 strings.
+//
+// It includes utilities such as reversing rune order, uppercasing,
+// and more complex transformations.
 package morestrings
 
 func ReverseRunes(s string) string {
